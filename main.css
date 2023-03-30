@@ -116,3 +116,10 @@ nav{
     opacity: 1;
     text-decoration: none;
   }
+
+  .linkedin:hover {
+    color:#2487EA;
+    opacity: 1;
+    text-decoration: none;
+
+  }
