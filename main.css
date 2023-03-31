@@ -83,8 +83,7 @@
 
 
 nav{
-    padding-left:4em;
-    padding-right: 4em;
+    padding-left: 150px;
 
     /* TODO: figure out no longer staying fixed */
     position: sticky;
@@ -112,7 +111,7 @@ nav{
   nav li a {
     color:rgb(0, 0, 0);
     font-weight: 600;
-    opacity: 0.6;
+    opacity: 0.9;
     text-decoration: none;
     transition: .3s;
   }
@@ -123,16 +122,46 @@ nav{
     text-decoration: none;
   }
 
+
+  #linkedin {
+    color:#2487EA;
+    opacity: .95;
+    transition: .3s;
+  }
+
  #linkedin:hover {
     color:#2487EA;
-    opacity: 1;
+    opacity: .45;
     text-decoration: none;
 
   }
 
-  #icon {
-
-    position: relative;
-    margin-left: auto;
-    margin-right: auto;
+  #instagram {
+    color:#2487EA;
+    opacity: .95;
+    transition: .3s;
   }
+
+ #instagram:hover {
+    /* color:#2487EA; */
+    opacity: .45;
+
+  }
+
+
+ h1 {
+  font-family: Gantari;
+  font-weight: 900;
+ }
+
+ h3 {
+  font-family: Gantari;
+  font-weight: 200;
+ }
+
+
+.png {
+
+  padding-top: 400%;
+
+ }
