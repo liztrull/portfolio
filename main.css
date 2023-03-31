@@ -17,11 +17,12 @@
    }
 }
 
-.nameheader {
+#nameheader {
 
-    max-width: 10%;
+    max-width: 1;
 }
 
+/* portfolio grid */
 
 .image-gallery {
     height: 100%;
@@ -78,17 +79,22 @@
 }
 
 
+/* ------- nav bar ------- */
+
+
 nav{
     padding-left:4em;
     padding-right: 4em;
+
     /* TODO: figure out no longer staying fixed */
-    position: fixed;
+    position: sticky;
     width: 100%;
     top:0;
     justify-items: center;
     z-index:10;
     font-family: Gantari;
-    font-style: upper;
+    font-weight: 900;
+    text-transform: uppercase;
   }
 
   nav ul {
@@ -117,9 +123,16 @@ nav{
     text-decoration: none;
   }
 
-  .linkedin:hover {
+ #linkedin:hover {
     color:#2487EA;
     opacity: 1;
     text-decoration: none;
 
+  }
+
+  #icon {
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
   }
