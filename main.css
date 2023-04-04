@@ -17,8 +17,7 @@
    }
 }
 
-body{
-
+body{ 
 background-image: url(assets/bgpattern.svg);
 background-repeat: repeat;}
 
@@ -27,6 +26,7 @@ svg {
   display:block;
   margin: auto;
   padding: 1%;
+
 
 }
 #nameheader {
@@ -183,11 +183,35 @@ nav{
 
  #about {
 
-  padding-top: 12%;
+    padding-top: 12%;
+    padding-left: 12%;
+    display: grid;
+    grid-template-columns: .5fr .25fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+    ". a b ."
+    ". c d ."
+    ". e f ."
+    ". g h .";
+
+   
  }
 
+ .aboutimg {
+  grid-area: b;
+
+ }
+
+ /* .blurb {
+
+padding: 30%;
+ } */
 
  #contact {
 
   padding-top: 12%;
  }
+
+
