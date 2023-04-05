@@ -163,23 +163,44 @@ nav{
 
   }
 
+/* ------------   type treatment   ------------- */
 
  h1 {
   font-family: Gantari;
-  font-weight: 900;
+  font-weight: 800;
  }
 
+ h2 {
+
+  font-family: gantari;
+  font-weight: 800;
+  font-size: 72pt;
+  line-height: 60pt;
+  text-transform: uppercase;
+  color: #2487EA;
+  
+ }
  h3 {
   font-family: Gantari;
-  font-weight: 200;
+  font-weight: 400;
  }
 
+ h4 {
+
+  font-family: Gantari;
+  font-style: italic;
+  font-weight: 200;
+
+ }
 
 .png {
 
-  padding-top: 400%;
+  padding-top: 200%;
 
  }
+
+/* ------------   section layouts   ------------- */
+
 
  #about {
 
@@ -192,9 +213,7 @@ nav{
     grid-row-gap: 0px;
     grid-template-areas:
     ". a b ."
-    ". c d ."
-    ". e f ."
-    ". g h .";
+ 
 
    
  }
@@ -215,3 +234,8 @@ padding: 30%;
  }
 
 
+ footer{ 
+  background-color:#2487EA; 
+  margin-top: auto;
+  text-align: center;
+  height: 100px; } 
