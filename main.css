@@ -65,14 +65,16 @@ svg {
 }
 
 .box-styling {
-    height: 350px;
+    /* height: 350px; */
     background-color: rgb(110, 110, 110);
-    /* clip-path: polygon(5% 5%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%); */
+    object-fit:contain ;
+    overflow: hidden; 
   }
 
 .box-wrapper{
-  height:350px;
-  
+  height:75%;
+  object-fit:fill ;
+  overflow: hidden;
 }
 .box1 {
     grid-area: a;
@@ -212,6 +214,17 @@ nav{
 
  }
 
+
+ /* ------------   main container   ------------- */
+
+ 
+ .container {
+
+  max-width: 1280px;
+
+
+}
+
 /* ------------   section layouts   ------------- */
 
 
@@ -247,8 +260,4 @@ nav{
   text-align: center;
   height: 100px; } 
 
-  .container {
-
-    
-
-  }
+ 
