@@ -15,95 +15,15 @@
             "content"
             "footer";}
   
-     .image-gallery {
-         padding-bottom: 200%;
-         grid-template-columns: 1fr minmax(400px, 1fr);
-         grid-template-areas:
-         ".box1." 
-         ".box2."
-         ".box3." 
-         ".box4."
-         ".box5."
-          ".box6."
-         ;
+     
      }
-    }
+
   
   
   body{ 
   background-image: url(assets/bgpattern.svg);
   background-repeat: repeat;}
   
-  svg {
-    max-width: 225px;
-    display:block;
-    margin: auto;
-    padding: 1%;
-  
-  
-  }
-  #nameheader {
-      align-items: center;
-      max-width: 250px;
-  }
-  
-  /* portfolio grid */
-  
-  .image-gallery {
-      height: 100%;
-      display: grid;
-      grid-template-columns: none;
-      grid-template-rows: auto;
-      grid-gap: 0px;
-      padding-top: 0px;
-      padding-bottom: 200px;
-      grid-template-areas:
-      ". a b ."
-      ". c d ."
-      ". e f ."
-      ". g h .";
-  }
-  
-  .box-styling {
-      /* height: 350px; */
-      background-color: rgb(110, 110, 110);
-      object-fit:contain ;
-      overflow: hidden; 
-    }
-  
-  .box-wrapper{
-    height:75%;
-    object-fit:fill ;
-    overflow: hidden;
-  }
-  .box1 {
-      grid-area: a;
-  }
-  
-  .box2 {
-      grid-area: b;
-  }
-  
-  .box3 {
-      grid-area: c;
-  }
-  
-  .box4 {
-      grid-area: d;
-  }
-  
-  .box5 {
-      grid-area: e;
-  }
-  
-  .box6 {
-      grid-area: f;
-  }
-  
-  .bigText {
-      font-size: 2em;
-      padding-right: .5ch;
-  }
   
   
   /* ------- nav bar ------- */
@@ -208,11 +128,6 @@
   
    }
   
-  .png {
-  
-    padding-top: 200%;
-  
-   }
   
   
    /* ------------   main container   ------------- */
@@ -220,44 +135,15 @@
    
    .container {
   
-    max-width: 1280px;
+    max-width: 1900px;
+    min-width: fit-content;
   
   
   }
   
-  /* ------------   section layouts   ------------- */
-  
-  
-   #about {
-  
-      padding-top: 10%;
-      padding-left: 12%;
-      display: grid;
-      grid-template-columns: .5fr .25fr;
-      grid-template-rows: 1fr;
-      grid-column-gap: 30px;
-      grid-row-gap: 0px;
-      grid-template-areas:
-      ". a b ."
-  
-     
-   }
-  
-  
-  
-   #contact {
-  
-    padding-top: 12%;
-   }
-  
-  
-  
-  
-  
-   footer{ 
-    background-color:#2487EA; 
-    margin-top: auto;
-    text-align: center;
-    height: 100px; } 
+img {
+
+  max-width: 1080px;
+}
   
    
