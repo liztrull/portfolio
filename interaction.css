@@ -42,47 +42,39 @@
   }
   
   .hovereffect:hover img {
-    filter:blur(3px);
-    -webkit-filter: blur(3px);
+
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
+    filter: blur(2px) grayscale(1);
   }
   
   .hovereffect h2 {
     /* text-transform: uppercase; */
-    /* text-align: center; */
+    text-align: center;
     position: relative;
     font-size: 1.5em;
-    /* padding: 15px; */
-    /* font-family: "gantari";
+    padding: 15px;
+    font-family: "gantari";
     font-weight: 800;
-    color: white; */
-  }
-  
-  .hovereffect p {
-    display: inline-block;
-    text-decoration: none;
-    padding: 7px 14px;
-    margin: 0;
-    background-color: transparent;
   }
   
  
+ 
   
-  .hovereffect p, .hovereffect h2 {
+  .hovereffect h2 {
     -webkit-transform: scale(0.7);
     -ms-transform: scale(0.7);
     transform: scale(0.7);
     -webkit-transition: all 0.4s ease-in;
     transition: all 0.4s ease-in;
     opacity: 0;
-    filter: alpha(opacity=0);
-    color: white;
+    color:#ffffff;
+    background-color: rgba(36, 135, 234, 2);
     text-transform: none;
     font-family: 'gantari', sans-serif;
     font-weight: 600;
-    margin-top:100px;
+    margin-top:20%;
   }
   
   .hovereffect:hover p, .hovereffect:hover h2 {
