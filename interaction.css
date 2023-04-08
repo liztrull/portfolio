@@ -42,9 +42,8 @@
   }
   
   .hovereffect:hover img {
-    filter:grayscale(100%);
-    -webkit-filter: grayscale(100%);
-    -webkit-filter: blur(10px);
+    filter:blur(3px);
+    -webkit-filter: blur(3px);
     -webkit-transform: scale(1.1);
     -ms-transform: scale(1.1);
     transform: scale(1.1);
@@ -52,13 +51,13 @@
   
   .hovereffect h2 {
     /* text-transform: uppercase; */
-    text-align: center;
+    /* text-align: center; */
     position: relative;
-    font-size: 1em;
-    padding: 10px;
-    font-weight: 500;
-    font-family: 'gantari'
-    /* color:#FFA100; */
+    font-size: 1.5em;
+    /* padding: 15px; */
+    /* font-family: "gantari";
+    font-weight: 800;
+    color: white; */
   }
   
   .hovereffect p {
@@ -79,10 +78,10 @@
     transition: all 0.4s ease-in;
     opacity: 0;
     filter: alpha(opacity=0);
-    color: #2487EA;
+    color: white;
     text-transform: none;
     font-family: 'gantari', sans-serif;
-    font-weight: 500;
+    font-weight: 600;
     margin-top:100px;
   }
   
@@ -93,9 +92,6 @@
     -ms-transform: scale(1);
     transform: scale(1);
   }
-
-
-
 
 
 
