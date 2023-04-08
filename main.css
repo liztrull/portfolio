@@ -223,12 +223,14 @@ nav{
 
  }
 
-.png {
 
-  padding-top: 200%;
+h5 {
 
- }
+  font-family: Gantari;
+  text-align: center;
+  font-weight: 600;
 
+}
 
 
 /* ------------   section layouts   ------------- */
@@ -236,10 +238,11 @@ nav{
 
  #about {
 
-    padding-top: 10%;
+    padding-top: 5%;
     padding-left: 12%;
+    padding-right: 10%;
     display: grid;
-    grid-template-columns: .5fr .25fr;
+    grid-template-columns: .5fr .5fr;
     grid-template-rows: 1fr;
     grid-column-gap: 30px;
     grid-row-gap: 0px;
