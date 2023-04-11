@@ -69,9 +69,8 @@ svg {
   display:block;
   margin: auto;
   padding: 1%;
-
-
 }
+
 #nameheader {
     align-items: center;
     max-width: 250px;
@@ -288,6 +287,16 @@ h5 {
   padding-top: 12%;
  }
 
+ .contactgrid {
+  margin-right: auto;
+  margin-left: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  grid-template-rows: 240px;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+
+  }
 
 
 
@@ -297,4 +306,13 @@ h5 {
   text-align: center;
   height: 100px; } 
 
+.email {
  
+  fill: black;
+}
+
+.keep {
+
+  margin-left: auto;
+  margin-right: auto;
+}
