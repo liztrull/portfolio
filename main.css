@@ -1,6 +1,4 @@
 
- 
-
 /* *{
   padding: 0; 
   margin: 1;
@@ -9,44 +7,37 @@
 
   } */
 
-  /* NATHAN CODE */
+/* container for mobile grid */
+  .container{ 
+    /* background-color: lightseagreen; */
+    /* margin-right:3em; */
+    /* min-width:100%; */
+    /* width:100%; */
+    height:100vh;
+    display:grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+          "heading"
+          "nav"
+          "gallery"
+          "about"
+          "contact"
+          "footer";}
 
-  @media only screen and (min-width: 1200px){
-    .image-gallery {
-      width:100%;
-      /* height: 100%; */
-      margin: 0 auto;
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      grid-template-rows: auto;
-      /* grid-gap: 20px; */
-      /* padding-top: 200px; */
-      /* padding-bottom: 200px; */
-      grid-template-areas:
-      "a b"
-      "c d"
-      "e f"
-      ;
-    }
-    
-    .logo img{
-      /* margin-left: 30%; */
-      /* margin-right: 30%; */
-      width:30vw;
-      margin: 0 auto;
-      /* display: flex; */
-      grid-area: logo;
-    }
-    nav li{
-      padding: 1em 0;
-      list-style-type: none;
-      padding: 150px;
-      font-size: 1.7em;
-    }
-    
+   .image-gallery {
+       /* padding-bottom: 200%; */
+       grid-template-columns: 1fr;
+       grid-template-areas:
+       "box1" 
+       "box2"
+       "box3" 
+       "box4"
+       "box5"
+       "box6"
+       ;
+   }
   
-   
-  }
 
    
     /* END NATHAN CODE */
@@ -58,17 +49,12 @@
 
  
  .container {
-
   max-width: 100%;
-
 }
 
 body{ 
-
 background-image: url(assets/bgpattern.svg);
 background-repeat: repeat;
-
-
 }
 
 svg {
@@ -84,24 +70,25 @@ svg {
 }
 
 /* portfolio grid */
-
 .image-gallery {
-    height: 100%;
+    /* height: 100%; */
     display: grid;
-    grid-template-columns: none;
+    grid-area:gallery;
+  margin: 0 auto;
+    grid-template-columns: 1fr;
     grid-template-rows: auto;
     grid-gap: 0px;
     padding-top: 0px;
-    padding-bottom: 200px;
+    /* padding-bottom: 200px; */
     grid-template-areas:
-    ". a b ."
-    ". c d ."
-    ". e f ."
-    ". g h .";
+    "a"
+    "b"
+    "c"
+    "d"
+    "e"
+    "f";
 }
-
 .box-styling {
-
   max-width: 720px;
   max-height: 400px;
   background-color: rgb(110, 110, 110);
@@ -111,11 +98,15 @@ svg {
 
 .box-wrapper{
   /* height:75%; */
-
   height: auto;
   width: auto;
   object-fit:fill ;
   overflow: hidden;
+}
+
+/* css for about area  */
+#about{
+  grid-area:about;
 }
 .box1 {
     grid-area: a;
@@ -271,21 +262,7 @@ h5 {
 /* ------------   section layouts   ------------- */
 
 
- #about {
 
-    padding-top: 5%;
-    padding-left: 12%;
-    padding-right: 10%;
-    display: grid;
-    grid-template-columns: .5fr .5fr;
-    grid-template-rows: 1fr;
-    grid-column-gap: 30px;
-    grid-row-gap: 0px;
-    grid-template-areas:
-    ". a b ."
-
-   
- }
 
 
 
@@ -323,3 +300,36 @@ h5 {
   margin-right: auto;
 }
 
+/* custom grid for desktop viewing */
+@media (min-width:1200px){
+  #about {
+    padding-top: 5%;
+    padding-left: 12%;
+    padding-right: 10%;
+    display: grid;
+    grid-template-columns: .5fr .5fr;
+    grid-template-rows: 1fr;
+    grid-column-gap: 30px;
+    grid-row-gap: 0px;
+    grid-template-areas:
+    ". a b ."
+
+   
+ }
+ .image-gallery {
+  height: 100%;
+  display: grid;
+  grid-template-columns: none;
+  grid-template-rows: auto;
+  grid-gap: 0px;
+  padding-top: 0px;
+  padding-bottom: 200px;
+  grid-template-areas:
+  ". a b ."
+  ". c d ."
+  ". e f ."
+  ". g h .";
+}
+
+
+}
