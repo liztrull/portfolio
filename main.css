@@ -1,5 +1,5 @@
-
-/* *{
+/* 
+*{
   padding: 0; 
   margin: 1;
   box-sizing: border-box;
@@ -198,17 +198,30 @@ nav{
 
   }
 
-  #instagram {
+  .instagram {
     color:#2487EA;
     opacity: .95;
     transition: .3s;
   }
 
- #instagram:hover {
+ .instagram:hover {
     /* color:#2487EA; */
     opacity: .45;
 
   }
+
+  .email{
+    color:#2487EA;
+    opacity: .95;
+    transition: .3s;
+  }
+
+ .email:hover {
+    /* color:#2487EA; */
+    opacity: .45;
+
+  }
+
 
 /* ------------   type treatment   ------------- */
 
@@ -255,6 +268,7 @@ p {
   text-align: center;
   font-weight: 200;
   font-size: 12pt;
+  line-height: 1fr;
   color: white;
 
 }
@@ -276,13 +290,13 @@ p {
  .contactgrid {
  
   display: grid;
-  grid-template-columns: repeat(3, 75px);
+  grid-template-columns: repeat(3, 100px);
   grid-template-rows: 100px;
   grid-column-gap: 100px;
   grid-row-gap: 0px;
-  align-items: center;
+  justify-content: center;
+  align-content: center;
   padding: 5%;
-  margin-left: 50%;
 
   }
 
@@ -291,30 +305,27 @@ p {
     text-align: center;
   }
 
-  #email {
- 
-    fill: black;
-  }
-  
-
 
 
  footer{ 
   background-color:#2487EA; 
   text-align: center;
-  height: 150px; } 
+  height: 175px; } 
 
   footer svg{
 
     padding-top: 2%;
+ 
   }
   footer a {
     color: white;
     text-decoration: none;
+    transition: .3s;
   }
 
   footer a:hover {
     color: black;
+
   }
 
 
