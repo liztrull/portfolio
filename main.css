@@ -9,10 +9,7 @@
 
 /* container for mobile grid */
   .container{ 
-    /* background-color: lightseagreen; */
-    /* margin-right:3em; */
-    /* min-width:100%; */
-    /* width:100%; */
+   
     height:100vh;
     display:grid;
     grid-template-columns: 1fr;
@@ -26,7 +23,6 @@
           "footer";}
 
    .image-gallery {
-       /* padding-bottom: 200%; */
        grid-template-columns: 1fr;
        grid-template-areas:
        "box1" 
@@ -37,11 +33,6 @@
        "box6"
        ;
    }
-  
-
-   
-    /* END NATHAN CODE */
-
 
 
 
@@ -230,7 +221,7 @@ nav{
 
   font-family: gantari;
   font-weight: 800;
-  font-size: 72pt;
+  font-size: 60pt;
   line-height: 60pt;
   text-transform: uppercase;
   color: #2487EA;
@@ -258,49 +249,79 @@ h5 {
 
 }
 
+p {
+
+  font-family: Gantari;
+  text-align: center;
+  font-weight: 200;
+  font-size: 12pt;
+  color: white;
+
+}
+
 
 /* ------------   section layouts   ------------- */
 
 
-
-
-
+#about img {
+  padding: 3%;
+  padding-top: 10%;
+}
 
  #contact {
 
-  padding-top: 12%;
+  padding-top: 7%;
  }
 
  .contactgrid {
  
   display: grid;
-  grid-template-columns: repeat(3, 100px);
+  grid-template-columns: repeat(3, 75px);
   grid-template-rows: 100px;
-  grid-column-gap: 20px;
+  grid-column-gap: 100px;
   grid-row-gap: 0px;
+  align-items: center;
+  padding: 5%;
+  margin-left: 50%;
 
   }
 
+  .keep {
+
+    text-align: center;
+  }
+
+  #email {
+ 
+    fill: black;
+  }
+  
 
 
 
  footer{ 
   background-color:#2487EA; 
   text-align: center;
-  height: 100px; } 
+  height: 150px; } 
 
-#email {
- 
-  fill: black;
-}
+  footer svg{
 
-.keep {
+    padding-top: 2%;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
 
-  margin-left: auto;
-  margin-right: auto;
-}
+  footer a:hover {
+    color: black;
+  }
+
+
 
 /* custom grid for desktop viewing */
+
+
 @media (min-width:1200px){
   #about {
     padding-top: 5%;
@@ -309,7 +330,7 @@ h5 {
     display: grid;
     grid-template-columns: .5fr .5fr;
     grid-template-rows: 1fr;
-    grid-column-gap: 30px;
+    grid-column-gap: 0px;
     grid-row-gap: 0px;
     grid-template-areas:
     ". a b ."
@@ -323,7 +344,7 @@ h5 {
   grid-template-rows: auto;
   grid-gap: 0px;
   padding-top: 0px;
-  padding-bottom: 200px;
+  padding-bottom: 0px;
   grid-template-areas:
   ". a b ."
   ". c d ."
@@ -333,3 +354,4 @@ h5 {
 
 
 }
+
