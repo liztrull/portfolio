@@ -9,42 +9,49 @@
 
   } */
 
+  /* NATHAN CODE */
 
-
-@media (max-width:735px){
+  @media only screen and (min-width: 1200px){
+    .image-gallery {
+      width:100%;
+      /* height: 100%; */
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      grid-template-rows: auto;
+      /* grid-gap: 20px; */
+      /* padding-top: 200px; */
+      /* padding-bottom: 200px; */
+      grid-template-areas:
+      "a b"
+      "c d"
+      "e f"
+      ;
+    }
+    
+    .logo img{
+      /* margin-left: 30%; */
+      /* margin-right: 30%; */
+      width:30vw;
+      margin: 0 auto;
+      /* display: flex; */
+      grid-area: logo;
+    }
+    nav li{
+      padding: 1em 0;
+      list-style-type: none;
+      padding: 150px;
+      font-size: 1.7em;
+    }
+    
   
-  .container{ 
-
-
-    background-color: lightseagreen;
-    /* margin-right:3em; */
-    min-width:100%;
-    /* width:100%; */
-    height:100vh;
-    display:grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-          "heading"
-          "nav"
-          "content"
-          "footer";}
-
-   .image-gallery {
-
-
-       padding-bottom: 200%;
-       grid-template-columns: 1fr minmax(400px, 1fr);
-       grid-template-areas:
-       ".box1." 
-       ".box2."
-       ".box3." 
-       ".box4."
-       ".box5."
-        ".box6."
-       ;
-   }
+   
   }
+
+   
+    /* END NATHAN CODE */
+
+
 
 
  /* ------------   main container   ------------- */
@@ -315,3 +322,4 @@ h5 {
   margin-left: auto;
   margin-right: auto;
 }
+
