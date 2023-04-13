@@ -1,11 +1,11 @@
-
-/* *{
+ 
+*{
   padding: 0; 
   margin: 1;
   box-sizing: border-box;
   border: 2px solid rgb(71, 214, 20);
 
-  } */
+  } 
 
 /* container for mobile grid */
   .container{ 
@@ -312,6 +312,30 @@ p {
     justify-items: center; 
     align-items: center; 
   }
+
+
+  .newicon {
+    display: grid; 
+    grid-template-columns: 100px 200px; 
+    grid-template-rows: 100px 100px 100px; 
+    gap: 0px; 
+    grid-template-areas: 
+      "instagram instagramt"
+      "email emailt"
+      "linkedin linkedint"; 
+    justify-content: center; 
+    align-content: center; 
+    justify-items: left; 
+    align-items: center; 
+  }
+  .instagram { grid-area: instagram; }
+  .email { grid-area: email; }
+  .linkedin { grid-area: linkedin; }
+  .instagramt { grid-area: instagramt; }
+  .emailt { grid-area: emailt; }
+  .linkedint { grid-area: linkedint; }
+
+
 
   .keep {
 
