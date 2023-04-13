@@ -1,5 +1,5 @@
-/* 
-*{
+
+/* *{
   padding: 0; 
   margin: 1;
   box-sizing: border-box;
@@ -198,25 +198,25 @@ nav{
 
   }
 
-  .instagram {
+  #instagram {
     color:#2487EA;
     opacity: .95;
     transition: .3s;
   }
 
- .instagram:hover {
+ #instagram:hover {
     /* color:#2487EA; */
     opacity: .45;
 
   }
 
-  .email{
+  #email{
     color:#2487EA;
     opacity: .95;
     transition: .3s;
   }
 
- .email:hover {
+ #email:hover {
     /* color:#2487EA; */
     opacity: .45;
 
@@ -300,6 +300,19 @@ p {
 
   }
 
+  .icongrid {
+    display: grid; 
+    grid-template-columns: 150px 150px 150px; 
+    grid-template-rows: 150px; 
+    gap: 1px 0px; 
+    grid-template-areas: 
+      ". . ."; 
+    justify-content: center; 
+    align-content: center; 
+    justify-items: center; 
+    align-items: center; 
+  }
+
   .keep {
 
     text-align: center;
@@ -310,11 +323,11 @@ p {
  footer{ 
   background-color:#2487EA; 
   text-align: center;
-  height: 175px; } 
+  height: 100; } 
 
   footer svg{
 
-    padding-top: 2%;
+    padding-top: 3%;
  
   }
   footer a {
