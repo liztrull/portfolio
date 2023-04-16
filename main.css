@@ -8,7 +8,7 @@
   }  */
 
 /* container for mobile grid */
-  .container{ 
+  /* .container{ 
    
     height:100vh;
     display:grid;
@@ -32,7 +32,7 @@
        "box5"
        "box6"
        ;
-   }
+   } */
 
 
 
@@ -97,6 +97,7 @@ svg {
 
 /* css for about area  */
 #about{
+  padding-top: 5%;
   grid-area:about;
 }
 .box1 {
@@ -140,7 +141,7 @@ nav{
 
     display: inline-block;
     margin: auto;
-    position: sticky;
+    position:sticky;
     width: 100%;
     top:0;
     z-index:10;
@@ -152,7 +153,6 @@ nav{
   }
 
   nav ul {
-
 
     padding:0;
     display:flex;
@@ -194,8 +194,6 @@ nav{
  #linkedin:hover {
     color:#2487EA;
     opacity: .45;
-    
-
   }
 
   #instagram {
@@ -219,7 +217,6 @@ nav{
  #email:hover {
     /* color:#2487EA; */
     opacity: .45;
-
   }
 
 
