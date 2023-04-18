@@ -1,11 +1,11 @@
-/*  
+
 *{
   padding: 0; 
   margin: 1;
   box-sizing: border-box;
   border: 2px solid rgb(71, 214, 20);
 
-  }  */
+  } 
 
 /* container for mobile grid */
 
@@ -38,11 +38,7 @@
        ;
    }
 
-   #about img {
-
-    scale: 75%;
-   }
-  
+   
 
  /* ------------   main container   ------------- */
 
@@ -105,7 +101,7 @@ svg {
 
 /* css for about area  */
 #about{
-  padding-top: 5%;
+  padding-top: 3%;
   grid-area:about;
 }
 .box1 {
@@ -283,13 +279,13 @@ p {
 
 
 #about img {
-  padding: 3%;
-  padding-top: 10%;
+  
 }
 
  #contact {
 
-  padding-top: 7%;
+  padding-top: 2%;
+  padding-bottom:3%;
  }
 
  .contactgrid {
@@ -301,7 +297,6 @@ p {
   grid-row-gap: 0px;
   justify-content: center;
   align-content: center;
-  padding: 5%;
 
   }
 
@@ -377,7 +372,7 @@ p {
 
 @media (min-width:1200px){
   #about {
-    padding-top: 5%;
+    padding-top: 3%;
     padding-left: 12%;
     padding-right: 10%;
     display: grid;
@@ -404,6 +399,10 @@ p {
   ". e f ."
   ". g h .";
 }
+
+#about img {
+  scale: 75%;
+ }
 
 
 }
