@@ -342,7 +342,10 @@ p {
     text-align: center;
   }
 
-
+  #about img {
+    scale: 75%;
+   }
+  
 
  footer{ 
   background-color:#2487EA; 
@@ -399,11 +402,6 @@ p {
   ". e f ."
   ". g h .";
 }
-
-#about img {
-  scale: 75%;
- }
-
 
 }
 
