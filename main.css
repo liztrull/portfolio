@@ -8,7 +8,11 @@
   }  */
 
 /* container for mobile grid */
-  /* .container{ 
+
+
+
+
+  .container{ 
    
     height:100vh;
     display:grid;
@@ -32,9 +36,13 @@
        "box5"
        "box6"
        ;
-   } */
+   }
 
+   #about img {
 
+    scale: 75%;
+   }
+  
 
  /* ------------   main container   ------------- */
 
@@ -84,7 +92,7 @@ svg {
   max-height: 400px;
   background-color: rgb(110, 110, 110);
     object-fit:contain ;
-    overflow: hidden; 
+    overflow: clip; 
   }
 
 .box-wrapper{
@@ -92,7 +100,7 @@ svg {
   height: auto;
   width: auto;
   object-fit:fill ;
-  overflow: hidden;
+  overflow: clip;
 }
 
 /* css for about area  */
@@ -379,9 +387,9 @@ p {
     grid-row-gap: 0px;
     grid-template-areas:
     ". a b ."
-
-   
  }
+
+
  .image-gallery {
   height: 100%;
   display: grid;
