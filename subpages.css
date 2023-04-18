@@ -74,71 +74,12 @@
   #nameheader {
       align-items: center;
       max-width: 250px;
+
   }
   
-  /* portfolio grid */
-  
-  .image-gallery {
-      height: 100%;
-      display: grid;
-      grid-template-columns: none;
-      grid-template-rows: auto;
-      grid-gap: 0px;
-      padding-top: 0px;
-      padding-bottom: 200px;
-      grid-template-areas:
-      ". a b ."
-      ". c d ."
-      ". e f ."
-      ". g h .";
-  }
-  
-  .box-styling {
-  
-    max-width: 720px;
-    max-height: 400px;
-    background-color: rgb(110, 110, 110);
-      object-fit:contain ;
-      overflow: hidden; 
-    }
-  
-  .box-wrapper{
-    /* height:75%; */
-  
-    height: auto;
-    width: auto;
-    object-fit:fill ;
-    overflow: hidden;
-  }
-  .box1 {
-      grid-area: a;
-  }
-  
-  .box2 {
-      grid-area: b;
-  }
-  
-  .box3 {
-      grid-area: c;
-  }
-  
-  .box4 {
-      grid-area: d;
-  }
-  
-  .box5 {
-      grid-area: e;
-  }
-  
-  .box6 {
-      grid-area: f;
-  }
-  
-  .bigText {
-      font-size: 2em;
-      padding-right: .5ch;
-  }
-  
+ 
+
+
   
   /* ------- nav bar ------- */
   
@@ -193,33 +134,6 @@
     }
   
   
-  /* ------- icons ------ */
-  
-  
-    #linkedin {
-      color:#2487EA;
-      opacity: .95;
-      transition: .3s;
-    }
-  
-   #linkedin:hover {
-      color:#2487EA;
-      opacity: .45;
-      
-  
-    }
-  
-    #instagram {
-      color:#2487EA;
-      opacity: .95;
-      transition: .3s;
-    }
-  
-   #instagram:hover {
-      /* color:#2487EA; */
-      opacity: .45;
-  
-    }
   
   /* ------------   type treatment   ------------- */
   
