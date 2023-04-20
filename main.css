@@ -9,11 +9,9 @@
 
 /* container for mobile grid */
 
-
-
-
   .container{ 
-   
+    transform: scale(80%);
+    justify-content: center;
     height:100vh;
     display:grid;
     grid-template-columns: 1fr;
@@ -278,9 +276,6 @@ p {
 /* ------------   section layouts   ------------- */
 
 
-#about img {
-  
-}
 
  #contact {
 
@@ -401,6 +396,10 @@ p {
   ". c d ."
   ". e f ."
   ". g h .";
+}
+
+.container{
+  transform: scale(100%);
 }
 
 }
