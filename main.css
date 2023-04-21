@@ -43,6 +43,7 @@
  
  .container {
   max-width: 100%;
+  max-height: fit-content;
 }
 
 body{ 
@@ -85,7 +86,7 @@ svg {
   max-width: 720px;
   max-height: 400px;
   background-color: rgb(110, 110, 110);
-    object-fit:contain ;
+    object-fit:cover ;
     overflow: clip; 
   }
 
@@ -361,6 +362,10 @@ p {
   .keep {
 
     text-align: center;
+  }
+
+  #blurb {
+    scale: 90%;
   }
 
   #about img {

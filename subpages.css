@@ -1,22 +1,19 @@
 /* 
- 
-
 *{
   padding: 0; 
   margin: 1;
   box-sizing: border-box;
   border: 2px solid rgb(71, 214, 20);
 
-  } */
+  }  */
 
 
 
   @media (max-width:1000px){
   
     .container{ 
-  
-  
-      /* margin-right:3em; */
+      transform: scale(90%);
+   
       min-width:100%;
       /* width:100%; */
       height:100vh;
@@ -29,11 +26,36 @@
             "content"
             "footer";}
 
+            .images {
+
+              display: grid;
+              grid-template-columns: 1fr;
+              grid-template-rows: auto;
+              justify-content: center;
+              justify-items: center;
+              align-items: center;
+             
+
+        
+            }
+        
+            img {
+              max-width: 98%;
+            }
+        
+       
+  
+      }
    
-    }
+    
   
    /* ------------   main container   ------------- */
   
+   #nameheader {
+    align-items: center;
+ 
+    
+}
   
   
   body{ 
@@ -113,12 +135,23 @@
       text-decoration: none;
     }
   
+    .images {
+
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+
+    img {
+      max-width: 95%;
+    }
 
     /* grid */
-    .parent {
+    /* .parent {
       transform: scale(85%);
       display: grid;
       overflow: hidden;
+
       justify-content: center;
       align-content: center;
       align-items: center;
@@ -131,12 +164,12 @@
       .div1 { grid-area: 1 / 1 / 2 / 3; }
       .div2 { grid-area: 2 / 1 / 3 / 2; }
       .div3 { grid-area: 2 / 2 / 3 / 3; }
-      .div4 { grid-area: 3 / 1 / 4 / 3; }
+      .div4 { grid-area: 3 / 1 / 4 / 3; } */
   
   
   /* ------------   type treatment   ------------- */
   
-   h1 {
+  h1 {
     font-family: Gantari;
     font-weight: 800;
    }
@@ -145,7 +178,7 @@
   
     font-family: gantari;
     font-weight: 800;
-    font-size: 72pt;
+    font-size: 60pt;
     line-height: 60pt;
     text-transform: uppercase;
     color: #2487EA;
@@ -173,8 +206,48 @@
   
   }
   
+  p {
+  
+    font-family: Gantari;
+    text-align: center;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1fr;
+    color: rgb(0, 0, 0);
+  
+  }
+  
+  
+  h5 {
+  
+    font-family: Gantari;
+    text-align: center;
+    font-weight: 600;
+  
+  }
+  
 
 
+  footer{ 
+    background-color:#2487EA; 
+    text-align: center;
+    height: 100; } 
+  
+    footer svg{
+  
+      padding-top: 3%;
+   
+    }
+    footer a {
+      color: white;
+      text-decoration: none;
+      transition: .3s;
+    }
+  
+    footer a:hover {
+      color: black;
+  
+    }
   
   
  
