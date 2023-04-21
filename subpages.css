@@ -75,7 +75,7 @@
   }
 
   .projectinfo {
-
+    background-color: rgba(255, 255, 255, 0.619);
     margin-left: 5%;
   }
   
@@ -137,7 +137,8 @@
    }
    h3 {
     font-family: Gantari;
-    font-weight: 400;
+    font-style: italic;
+    font-weight: 600;
    }
   
    h4 {
