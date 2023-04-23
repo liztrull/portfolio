@@ -8,9 +8,16 @@
   }  */
 
 /* container for mobile grid */
+@media only screen and (max-width: 1100px) {
 
+  .container {
+      transform: scale(80%);
+      height: 100vh; }
+
+}
   .container{ 
-    transform: scale(80%);
+    /* transform: scale(80%); */
+    padding: ;
     justify-content: center;
     /* height:100vh; */
     display:grid;
