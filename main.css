@@ -13,13 +13,10 @@
   .container {
       transform: scale(80%);
       height: 100vh; }
-
+  
 }
   .container{ 
-    /* transform: scale(80%); */
-    padding: ;
     justify-content: center;
-    /* height:100vh; */
     display:grid;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
