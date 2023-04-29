@@ -44,7 +44,10 @@
 
  /* ------------   main container   ------------- */
 
- 
+ .error {
+text-align: center;
+ }
+
  .container {
   max-width: 100%;
   max-height: fit-content;
