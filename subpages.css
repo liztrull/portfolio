@@ -78,15 +78,15 @@
   }
   
   
-  body{ 
+  /* body{ 
   
-  background-image: url(assets/bgpattern.svg);
-  background-repeat:repeat;
-  
-  }
+   background-image: url(assets/bgpattern.svg);
+  background-repeat:repeat; 
+
+  } */
 
   body betterday {
-    background-color: white;
+    background-color: lightgray;
   }
  
   
@@ -129,7 +129,7 @@
    }
    h3 {
     font-family: Gantari;
-    font-style: italic;
+    /* font-style: italic; */
     font-weight: 600;
    }
   
@@ -159,6 +159,22 @@
     color: rgb(0, 0, 0);
     
   }
+
+li {
+  
+    font-family: Gantari;
+    font-weight: 400;
+    font-size: 12pt;
+    line-height: 1fr;
+    color: rgb(0, 0, 0);
+    
+  }
+ul {
+
+  padding: 0;
+  list-style-type: none;
+}
+  
   
   
   h5 {
@@ -186,6 +202,7 @@
       padding-top: 7%;
    
     }
+
     footer a {
       color: white;
       text-decoration: none;
@@ -216,9 +233,19 @@
             background-color: rgba(255, 255, 255, 0.619);
             margin-top: 5%;
             margin-left: 15%;
-            width: 600px;
+            width: 75%;
             padding-right: 18%;
-          }
+            justify-content: center;
+            display: grid;
+            grid-template-columns: 60% 25%;
+            grid-template-rows: repeat(2, .25fr);
+            grid-column-gap: 5%;
+            grid-row-gap: 0px;
+            }
+            
+            .ptitle { grid-area: 1 / 1 / 2 / 3; }
+            .info { grid-area: 2 / 1 / 3 / 2; }
+            .apps { grid-area: 2 / 2 / 3 / 3; }
 
           .parent {
                transform: scale(90%);
@@ -236,36 +263,7 @@
                grid-template-rows: repeat(3, 1fr);
                grid-column-gap: 0px;
                grid-row-gap: 0px;
-               }
-               
-/* 
-
-               .willowgrid {
-                transform: scale(90%);
-                transform: scale(90%);
-                padding:3%;
-                margin-left: 45px;
-                min-width:100%;
-                width:100% fit-content;
-                height:100%;
-
-                display: grid;
-                grid-template-columns: repeat(2, .5fr);
-                grid-template-rows: repeat(8, .5fr);
-                grid-column-gap: 0px;
-                grid-row-gap: 0px;
-                }
-                 */
-                /* .w1 { grid-area: 1 / 1 / 2 / 3; }
-                .w2 { grid-area: 2 / 1 / 3 / 2; }
-                .w3 { grid-area: 2 / 2 / 3 / 3; }
-                .w4 { grid-area: 3 / 1 / 4 / 3; }
-                .w5 { grid-area: 4 / 1 / 5 / 2; }
-                .w6 { grid-area: 4 / 2 / 5 / 3; }
-                .w7 { grid-area: 5 / 1 / 6 / 3; }
-                .w8 { grid-area: 6 / 1 / 7 / 2; }
-                .w9 { grid-area: 6 / 2 / 7 / 3; } */
-
+          }
 
                 .desktopgrid {
 
