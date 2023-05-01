@@ -5,7 +5,7 @@ This is the most in-depth project I've taken a part of to date; working closely 
 
 Languages Utilized: HTML & CSS.
 
-Many difficulties came with learning HTML & CSS, while coding a live site. Including:
+**Many difficulties came with learning HTML & CSS, while coding a live site. Including:**
 
 -The sticky nav bar fell off my screen because I had a set height for the homepage container. 
 
@@ -16,7 +16,7 @@ Many difficulties came with learning HTML & CSS, while coding a live site. Inclu
 -I am still having trouble with the vertical spacing of each subpage, especially for The Willow Project, where the images drop down lower than intended.
 
 
-Special Shoutouts:
+**Special Shoutouts:**
 
 BoilerPlate from https://github.com/lahdesign/boilerPlate 
 
@@ -31,7 +31,7 @@ Lara Henderson https://github.com/lahdesign
 Those who added critiques on my survey during user testing.
 
 
-Some survey feedback that was given during user testing included:
+**Some survey feedback that was given during user testing included:**
 
 -"Some of your links–like the one for your resume and for this survey–should open in a separate tab."
 
